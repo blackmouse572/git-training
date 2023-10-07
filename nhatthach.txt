@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 Truong Nhat THach
 SE17D09
 DE180289
+=======
+Trương Nhat Thach
+DE180289
+SE17D09
+>>>>>>> 2c136033ddefabbaacd82365d35ca5c162e45f58
