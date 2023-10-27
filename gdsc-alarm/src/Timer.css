@@ -1,0 +1,70 @@
+.Timer {
+    padding: 10px 60px;
+    /* Glass like effect */
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    /* https://css.glass/ */
+    min-width: 45vw;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.Timer-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: transparent;
+    outline: none;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 1px;
+    transition: all 0.3s ease;
+}
+
+.Timer-icon {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+    background-color: transparent;
+    font-size: 1px;
+    transition: all 0.3s ease;
+}
+.Timer-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 1px #FFF;
+}
+.icon-disabled:hover {
+    cursor: not-allowed;
+}
+
+.delete {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    position: relative;
+    bottom: 70px;
+    left: 14%;
+    border-radius: 50%;
+    transition: all 0.1s ease;
+}
+.delete-icon {
+    width: 20px;
+    height: 20px;
+}
+.delete:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 1px #FFF;
+}
