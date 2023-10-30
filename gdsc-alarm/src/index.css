@@ -1,9 +1,0 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-@font-face {
-  font-family:'digital-clock';
-  src: local('digital-clock'), url(./assets/Orbitron-Medium.ttf) format('truetype');
-}
