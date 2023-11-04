@@ -1,0 +1,98 @@
+html, body {
+  background:#406dc0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.timer {
+  color: white;
+  padding: 10px 30px 20px;
+  background: #25293185;
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  gap: 20px;
+  width: 370px;
+}
+
+.clock {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+input.number {
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  background: transparent;
+  width: 83px;
+  padding: 0 4px;
+  padding-bottom: 8px;
+  margin: 0 -4px -10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; 
+}
+
+.number, .colon {
+  font-size: 60px;
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+}
+
+.unit {
+  margin: -10px 0 0;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-align: center;
+}
+
+.toggle {
+  background-color: transparent;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.toggle:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
